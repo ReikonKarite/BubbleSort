@@ -19,8 +19,6 @@ namespace BubbleSort
                int t2 = Convert.ToInt32(t1);
            
                Array[i] = t2;
-           
-               
            }
 
            //print array method
@@ -42,16 +40,9 @@ namespace BubbleSort
                         Array[i] = Array[i + 1];
                         Array[i + 1] = temp;
                         swaps++;
-
-                        //Console.WriteLine(Array[i]);
-                        //Console.WriteLine(Array[i+1]);
-
-
-
                     }
 
                     PrintSeq(Array);
-                   
                 }
                 Console.WriteLine("Swaps: " + swaps);
 
